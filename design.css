@@ -1,0 +1,117 @@
+#weather{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius:5px;
+  width: 150px;
+  height: 100px;
+  background-color:transperant;
+}
+#c_name{
+  position: fixed;
+  top:0px;
+}
+#nav_container{
+  background-color: transparent;
+  border-radius: 5px;
+  border-style: double;
+  border-color: white;
+  position: absolute;
+  top: 120px;
+  left: 250px;
+}
+li{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  font-family: Toan;
+  font-size: 18px;
+  padding: 10px;
+}
+#contacts{
+  margin-right: 20px;
+}
+a:hover{
+  background-color: #294f9a;
+  border-style: dashed;
+  border-color: white;
+}
+h1{
+  float: right;
+  margin-top: 55px;
+  margin-right: 280px;
+  font-family: Toan;
+  color: white;
+  font-size: 40px;
+}
+@font-face {
+  font-family: Toan;
+  src: url(PWScratchedfont.ttf);
+}
+body{
+  background: url(indexBackground.jpg);
+}
+#city{
+  float: left;
+  padding-top: -20px;
+  padding-left: 10px;
+  color: white;
+  font-family: Toan;
+  font-weight: bold;
+}
+#icon{
+  float: right;
+}
+#temp{
+  float: left;
+  color: white;
+  font-family: Toan;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+}
+#time{
+  float: left;
+  color: white;
+  font-family: Toan;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -22px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+footer{
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  font-family: Toan;
+  font-size: 10px;
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+footer #mail{
+  font-size: inherit;
+}
+#main_content{
+  margin-left: 50px;
+  width: 1100px;
+  height: 400px;
+  border-style: dashed;
+  border-color: white;
+  padding: 10px;
+}
+#main_content p{
+  float: none;
+  font-family: Toan;
+  color: white;
+}
+#main_content img{
+  float: left;
+  margin-right: 25px;
+}
